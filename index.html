@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- BS 4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- MAIN CSS  -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="w-50 py-5">
+            <h2>NHẬP SỐ NGUYÊN</h2>
+            <form>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="inputNum" placeholder="Nhập số nguyên">
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="inputFirstNum" placeholder="Nhập vị trí số thứ 1">
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="inputSecondNum" placeholder="Nhập vị trí số thứ 2">
+                </div>
+                <button id="addNum" type="button" class="btn btn-success">Thêm</button>
+                <button id="sumPositive" type="button" class="btn btn-primary">Tổng số dương</button>
+                <button id="countPositive" type="button" class="btn btn-primary">Đếm số dương</button>
+                <button id="findMin" type="button" class="btn btn-primary">Tìm số nhỏ nhất</button>
+                <button id="findMinPositive" type="button" class="btn btn-primary">Tìm số dương nhỏ nhất</button>
+                <button id="findLast" type="button" class="btn btn-primary">Tìm số chẵn cuối cùng</button>
+                <button id="swap" type="button" class="btn btn-primary">Đổi chỗ 2 vị trí đã chọn</button>
+                <button id="btnUp" type="button" class="btn btn-primary">Sắp xếp tăng dần</button>
+                <button id="findPrime" type="button" class="btn btn-primary">Tìm số nguyên tố đầu tiên</button>
+                <button id="compare" type="button" class="btn btn-primary">So sánh số số dương và số số âm</button>
+                <p class="alert alert-success">
+                    Dãy số bạn nhập là:
+                    <span id="list"></span>
+                </p>
+                <p class="alert alert-primary">
+                    Tổng các số dương trong dãy số là:
+                    <span id="txtSum"></span>
+                </p>
+                <p class="alert alert-primary">
+                    Số số dương trong dãy số là:
+                    <span id="txtCount"></span>
+                </p>
+                <p class="alert alert-primary">
+                    Số nhỏ nhất trong dãy số là:
+                    <span id="txtMin"></span>
+                </p>
+                <p class="alert alert-primary">
+                    Số dương nhỏ nhất trong dãy số là:
+                    <span id="txtMinPositive"></span>
+                </p>
+                <p class="alert alert-primary">
+                    Số chẵn cuối cùng trong dãy số là:
+                    <span id="txtLast"></span>
+                </p>
+                <p class="alert alert-primary">
+                    Dãy số sau khi đổi chỗ 2 vị trí được chọn:
+                    <span id="txtSwap"></span>
+                </p>
+                <p class="alert alert-primary">
+                    Sắp xếp dãy số theo thứ tự tăng dần:
+                    <span id="txtUp"></span>
+                </p>
+                <p class="alert alert-primary">
+                    Số nguyên tố đầu tiên trong dãy số là:
+                    <span id="txtPrime"></span>
+                </p>
+                <p class="alert alert-primary">
+                    So sánh số số dương và số số âm trong dãy số:
+                    <span id="txtCompare"></span>
+                </p>
+
+            </form>
+        </div>
+
+
+        <div class="w-50 py-5">
+            <h2>NHẬP SỐ THỰC</h2>
+            <form>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="inputNumber" placeholder="Nhập số thực">
+                </div>
+                <button id="addNumber" type="button" class="btn btn-success">Thêm</button>
+                <button id="findInteger" type="button" class="btn btn-primary">Số số nguyên trong dãy số</button>
+                <p class="alert alert-success">
+                    Dãy số bạn nhập là:
+                    <span id="listNumber"></span>
+                </p>
+                <p class="alert alert-primary">
+                    Số số nguyên trong dãy số là:
+                    <span id="txtInteger"></span>
+                </p>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- BS 4 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

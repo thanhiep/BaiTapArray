@@ -1,0 +1,11 @@
+.btn{
+    display: inline-block;
+    margin: 5px 5px 5px 0;
+}
+
+#addNum,#addNumber{
+    display: block;
+}
+p{
+    font-size: 20px;
+}
